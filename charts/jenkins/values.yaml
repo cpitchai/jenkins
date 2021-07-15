@@ -722,7 +722,7 @@ persistence:
   ##   GKE, AWS & OpenStack)
   ##
   storageClass: 
-  annotations: {}
+  annotations: {jenkin-storage}
   accessMode: "ReadWriteOnce"
   size: "8Gi"
   volumes:
