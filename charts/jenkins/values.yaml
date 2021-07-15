@@ -721,8 +721,9 @@ persistence:
   ##   set, choosing the default provisioner.  (gp2 on AWS, standard on
   ##   GKE, AWS & OpenStack)
   ##
+  storageClassName: jenkin-storage
   storageClass: 
-  annotations: {jenkin-storage}
+  annotations: {}
   accessMode: "ReadWriteOnce"
   size: "8Gi"
   volumes:
