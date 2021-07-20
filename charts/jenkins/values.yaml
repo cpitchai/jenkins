@@ -698,6 +698,12 @@ additionalAgents:
     # sideContainerName: jnlp
     image: jenkins/jnlp-agent-maven
     tag: latest
+  docker:
+     podName: docker
+     customJenkinsLabels: docker
+     sideContainerName: docker
+     image: docker
+     tag: 17.09.1-ce
 #  python:
 #    podName: python
 #    customJenkinsLabels: python
