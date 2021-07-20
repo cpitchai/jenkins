@@ -707,6 +707,15 @@ additionalAgents: {}
 #    command: "/bin/sh -c"
 #    args: "cat"
 #    TTYEnabled: true
+  docker:
+    podName: docker
+    customJenkinsLabels: docker
+    sideContainerName: docker
+    image: docker.io/library/docker
+    tag: latest
+#    command: "/bin/sh -c"
+#    args: "cat"
+#    TTYEnabled: true
 
 persistence:
   enabled: true
