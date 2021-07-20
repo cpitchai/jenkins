@@ -690,14 +690,7 @@ agent:
 
 # Here you can add additional agents
 # They inherit all values from `agent` so you only need to specify values which differ
-additionalAgents: {
-  docker:
-    podName: docker
-    customJenkinsLabels: docker
-    sideContainerName: docker
-    image: docker
-    tag: latest
-    }
+additionalAgents: {}
 #  maven:
 #    podName: maven
 #    customJenkinsLabels: maven
