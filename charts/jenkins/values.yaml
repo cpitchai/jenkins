@@ -690,7 +690,7 @@ agent:
 
 # Here you can add additional agents
 # They inherit all values from `agent` so you only need to specify values which differ
-additionalAgents: {}
+additionalAgents:
   maven:
     podName: maven
     customJenkinsLabels: maven
